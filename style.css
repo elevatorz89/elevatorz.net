@@ -65,10 +65,19 @@ a{
   color: white
 }
 
-nav a{
+nav{
   display: flex;
   justify-content: center;
+  gap: 20px;
+}
+
+.navbutton{
+  cursor: pointer;
+  outline: #FFFFFF solid 2px;
+  outline-offset: 5px;
   margin-top: 20px;
+  background-color: transparent;
   border-color: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 2px;
+  text-decoration: none;
 }
