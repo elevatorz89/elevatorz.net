@@ -17,6 +17,7 @@ fonts/Mono/mono_regular-webfont.woff
 
 html{
   background-image: url("assets/trambanner.jpg");
+  background-color: #ffffff00;
 }
 
 
@@ -39,7 +40,7 @@ body {
 
 }
 
-div{
+.container{
   padding: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.555);
@@ -47,6 +48,10 @@ div{
   text-align: center;
   max-width: 42rem;
   backdrop-filter: blur(10px);
+}
+
+.social_icon {
+    width: 50px;
 }
 
 p{
